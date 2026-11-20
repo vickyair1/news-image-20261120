@@ -1,13 +1,15 @@
-// The World Today — 20 November 2026 front page (Node 22, stdlib only).
+// The World Today, round 2 — Friday 20 November 2026 (Node 22, stdlib only).
 //
-// The entry is the newspaper front page next to this file (entry.png,
-// 1024x1024): five verified stories from Friday 20 November 2026 —
-// Cyclone Akvan's landfall in Odisha, COP31's closing day in Antalya,
-// Trump's noon briefing on his China trip, the continuing U.S.–Iran
-// strikes in the Gulf, and Taiwan's market measures — plus an ALSO TODAY
-// ticker with eight more. The page was drawn with Python/PIL (see the
-// build script in the working directory, not part of this repo); every
-// picture on it is a drawn illustration, every word rendered as text.
+// The entry is the dense one-page newspaper next to this file (entry.png,
+// 1024x1024): 36 verified stories from Friday 20 November 2026 across 7
+// regions — three leads (Kyiv under missile fire, Cyclone Akvan's
+// landfall in Odisha, COP31's closing day in Antalya), ten feature cards,
+// 23 one-line briefs, a stat strip, a region tally, a dotted world map
+// with numbered pins, a DATE CHECK box of stories left out because they
+// happened 17-19 November, and a source footer. The page was drawn with
+// Python/PIL (see the build script in the working directory, not part of
+// this repo); every picture on it is a drawn illustration, every word
+// rendered as text, nothing copied from any other entry.
 //
 // This program only hands the finished image over: it reads entry.png,
 // checks it really is a PNG of at most 1 MiB, and writes those exact
